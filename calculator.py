@@ -18,9 +18,8 @@ with col4:
     f = st.button("DIVIDE")
 
 
-result=0
 if c:
-    st.warning(num1+num2)
+    st.success(num1+num2)
 if d:
     st.success(num1-num2)
 if e:
@@ -31,21 +30,3 @@ if f:
     else:
         st.error("Denominator should not be zero")
 
-
-
-
-
-
-
-
-
-# def sum(a):
-#     sum=0
-#     for i in a:
-#         sum+=i
-#     return sum
-#
-# # print(sum(5,3))
-#
-#
-# print(sum([1,2,3,4]))
